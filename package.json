@@ -22,4 +22,5 @@
     "autoprefixer": "^10.4.20"
   }
 }
-
+const text = await response.text();
+const data = text ? JSON.parse(text) : {};
